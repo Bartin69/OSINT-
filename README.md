@@ -30,9 +30,10 @@ This project is a Python-based OSINT (Open Source Intelligence) tool designed to
    pip install -r requirements.txt
 
 
-Run the script and input the desired username or name when prompted:
+4. Run the script and input the desired username or name when prompted:
 
-     python main.py
+     ```sh
+   python main.py
 
 
 Code Description:
