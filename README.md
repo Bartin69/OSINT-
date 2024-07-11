@@ -32,25 +32,12 @@ This project is a Python-based OSINT (Open Source Intelligence) tool designed to
 
 Run the script and input the desired username or name when prompted:
 
-     python main.py```
+     python main.py
 
 
 Code Description:
 request_with_retries
 This function sends HTTP requests to a given URL with a specified number of retries and delay between retries.
-      ```python
-      def request_with_retries(url, retries=3, delay=5):
-       for i in range(retries):
-           try:
-               response = requests.get(url)
-               if response.status_code == 200:
-                   return response
-               else:
-                   print(f"Failed with status code: {response.status_code}")
-           except requests.exceptions.RequestException as e:
-               print(f"Request failed: {e}")
-           time.sleep(delay)
-       return None
 
 search_telegram
 Fetches profile information from Telegram by parsing the shared data script.
