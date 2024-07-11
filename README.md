@@ -28,13 +28,9 @@ This project is a Python-based OSINT (Open Source Intelligence) tool designed to
 3. Install the required Python packages:
    ```sh
    pip install -r requirements.txt
-
-
 4. Run the script and input the desired username or name when prompted:
-
      ```sh
    python main.py
-
 
 Code Description:
 request_with_retries
