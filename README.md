@@ -32,8 +32,7 @@ This project is a Python-based OSINT (Open Source Intelligence) tool designed to
 
 Run the script and input the desired username or name when prompted:
 
-      ```sh
-     python main.py
+     python main.py```
 
 
 Code Description:
